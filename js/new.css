@@ -1,0 +1,1013 @@
+
+
+.mp-pg-dealers__wrapper {
+	width: 960px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
+
+.mp-pg-dealers__title {
+	font-family: "firasansmedium";
+	font-size: 20px;
+	color: #010101;
+	margin: 35px 0 30px 20px;
+}
+
+.mp-pg-dealers__text {
+	font-family: "firasans";
+	font-size: 16px;
+	line-height: 24px;
+	color: #010101;
+}
+
+.mp-pg-dealers__map {
+	height: 250px;
+	margin-top: 40px;
+  margin-bottom: 60px;
+	overflow: hidden;
+	background-color: #eee;
+}
+
+.mp-pg-dealers__shop-section {
+	margin-top: 30px;
+	background-color: #fff;
+}
+
+.mp-pg-dealers__shop-title {
+	margin-bottom: 15px;
+	font-family: "firasansmedium";
+	font-size: 20px;
+	color: #010101;
+	margin-left: 20px;
+}
+
+.mp-pg-dealers__shop-title-mr {
+	margin-left: 20px;
+}
+
+.mp-pg-dealers__center {
+	text-align: center;
+}
+
+.mp-pg-dealers__shop-item {
+  float: left;
+  width: 220px;
+	height: auto;
+  margin-right: 20px;
+	margin-bottom: 20px;
+  cursor: pointer;
+	border-radius: 5px;
+	background-color: #fff;
+	transition: box-shadow 0.3s ease;
+}
+
+.mp-pg-dealers__shop-item:nth-child(5n) {
+  margin-right: 0;
+}
+
+.mp-pg-dealers__shop-item:last-child {
+  margin-right: 0;
+}
+
+.mp-pg-dealers__shop-item:hover {
+	-webkit-box-shadow: 0 0 9px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 9px rgba(0,0,0,.5);
+	-o-box-shadow: 0 0 9px rgba(0,0,0,.5);
+	box-shadow: 0 0 9px rgba(0,0,0,.5);
+}
+
+.mp-pg-dealers__shop-img-wr {
+	width: 100%;
+	height: 175px;
+	border-radius: 5px 5px 0 0;
+}
+
+.mp-pg-dealers__shop-img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.mp-pg-dealers__shop-info-wr {
+	width: 100%;
+	height: auto;
+	padding: 17px 0 13px;
+	border-radius: 0 0 5px 5px;
+	background-color: #fff;
+}
+
+.mp-pg-dealers__shop-info-address {
+	margin-bottom: 5px;
+	font-family: "firasans";
+	font-size: 13px;
+	line-height: 16px;
+	color: #000;
+	position: relative;
+	padding-left: 19px;
+}
+
+.mp-pg-dealers__shop-info-ic-address {
+	display: inline-block;
+	width: 8px;
+	height: 12px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-image: url("img/ic_location.png");
+	position: absolute;
+	left: 0;
+}
+
+.mp-pg-dealers__shop-info-phone {
+	float: left;
+	width: 100%;
+	font-family: "firasans";
+	font-size: 12px;
+	color: #000;
+}
+
+.mp-pg-dealers__shop-info-ic-phone {
+	display: inline-block;
+	width: 11px;
+	height: 12px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-image: url("img/ic_phone.png");
+}
+
+.mp-pg-dealers__shop-info-time {
+	float: left;
+	width: 100%;
+	font-family: "firasans";
+	font-size: 12px;
+	color: #000;
+}
+
+.mp-pg-dealers__shop-info-ic-time {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-image: url("img/ic_time.png");
+}
+
+.mp-pg-dealers__shop-s {
+  float: left;
+  margin-right: 20px;
+}
+
+.mp-pg-dealers__shop-filter-wr {
+  float: left;
+  width: 520px;
+  margin-right: 20px;
+}
+
+.mp-pg-dealers__shop-dop-wr {
+  float: left;
+  width: 160px;
+}
+
+.mp-pg-dealers__shop-filter {
+	width: 420px;
+	margin: 0 auto;
+}
+
+.mp-pg-dealers__filter-wr {
+	padding: 15px 0 0;
+	border: 1px solid #bababa;
+	border-radius: 5px;
+}
+
+.mp-pg-dealers__filter-item {
+	float: left;
+	width: 50%;
+	height: 35px;
+	margin-bottom: 20px;
+	padding: 0 5px 0 12px;
+}
+
+.mp-pg-dealers__top-filter {
+  display: none;
+}
+
+.mp-pg-dealers__filter-checkbox-wr {
+	float: left;
+	width: 12%;
+}
+
+.mp-pg-dealers__filter-caption-wr {
+	float: left;
+	width: 88%;
+}
+
+.mp-pg-dealers__filter-checkbox {
+	display: inline-block;
+	margin-right: 5px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #bababa;
+	border-radius: 3px;
+	background: #fff;
+	box-shadow: none;
+}
+
+.mp-pg-dealers__filter-checkbox.focused {
+	border-color: #bababa;
+}
+
+.mp-pg-dealers__filter-checkbox.checked {
+	border-color: #0091d5;
+	background-image: url("img/ic_check.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mp-pg-dealers__filter-checkbox.checked .jq-checkbox__div {
+	display: none;
+}
+
+.mp-pg-dealers__filter-caption {
+	display: inline;
+	font-family: "firasans";
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+}
+
+.mp-pg-dealers__city-select {
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+	transition: none;
+}
+
+.mp-pg-dealers__top-select {
+  display: none;
+}
+
+.mp-pg-dealers__city-select .jq-selectbox__select {
+	height: 30px;
+	font-family: "firasans";
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0 40px 0 15px;
+	border: 1px solid #bababa;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: none;
+	text-shadow: none;
+	color: #000;
+}
+
+.mp-pg-dealers__city-select .jq-selectbox__select .jq-selectbox__trigger {
+	border: none;
+}
+
+.mp-pg-dealers__city-select .jq-selectbox__select .jq-selectbox__trigger:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 1px;
+	height: 17px;
+	background-color: rgba(0,145,213,0.25);
+}
+
+.mp-pg-dealers__city-select .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+	top: 13px;
+	border-top: 5px solid #1b9bdb;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+
+.mp-pg-dealers__city-select .jq-selectbox__dropdown ul li.selected {
+  background-color: #1b9bdb;
+}
+
+.mp-pg-dealers__city-select .jq-selectbox__dropdown ul li:hover {
+	transition: none;
+	background-color: #1b9bdb;
+}
+
+.mp-pg-dealers__shop-link {
+	display: inline-block;
+	width: 100%;
+	height: 25px;
+	margin-bottom: 15px;
+	font-family: "firasans";
+	font-size: 14px;
+	line-height: 25px;
+	color: #000;
+	text-align: center;
+	border: 1px solid #bababa;
+	border-radius: 5px;
+	background-color: #fff;
+	transition: none;
+}
+
+.mp-pg-dealers__shop-link:last-child {
+	margin-bottom: 0;
+}
+
+.mp-pg-dealers__shop-link:hover,
+.mp-pg-dealers__shop-link:focus {
+	font-family: "firasansbold";
+	color: #fff;
+	text-decoration: none;
+	border-color: #0091d5;
+	background-color: #0091d5;
+}
+
+.mp-pg-dealers__shop-city-select {
+  float: right;
+  width: 220px;
+}
+
+.mp-pg-dealers__shop-filter-sm-wr {
+  width: 220px;
+  float: right;
+}
+
+.mp-pg-dealers__shop-filter-sm {
+  width: 100%;
+}
+
+.mp-pg-dealers__shop-filter-sm .mp-pg-dealers__filter-item {
+  float: none;
+  width: 100%;
+  height: 100%;
+  max-height: 40px;
+  margin-bottom: 8px;
+}
+
+.mp-pg-dealers__filter-title {
+  margin-bottom: 5px;
+  font-family: "firasans";
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+  text-align: center;
+}
+
+.mp-pg-dealers__shop-mobile-wr {
+  display: none;
+  margin-top: 10px;
+}
+
+.mp-pg-dealers__shop-mobile-select {
+  float: left;
+  width: 217px;
+}
+
+.mp-pg-dealers__shop-mobile-filter-wr {
+  position: relative;
+  float: right;
+  width: 217px;
+}
+
+.mp-pg-dealers__drop-filter-btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 0 40px 0 15px;
+  font-family: "firasans";
+  font-size: 14px;
+  line-height: 30px;
+  color: #000;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.mp-pg-dealers__drop-filter-btn:hover,
+.mp-pg-dealers__drop-filter-btn:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+.mp-pg-dealers__drop-filter-btn::after {
+  content: '';
+  position: absolute;
+  top: 13px;
+  right: 12px;
+  border-top: 5px solid #1b9bdb;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.mp-pg-dealers__drop-filter-btn::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  right: 30px;
+  width: 1px;
+  height: 17px;
+  background-color: rgba(0,145,213,0.25);
+}
+
+.mp-pg-dealers__drop-filter {
+  display: none;
+  position: absolute;
+  top: 32px;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.mp-pg-dealers__drop-filter-visible {
+  display: block;
+}
+
+.mp-pg-dealers__drop-filter .mp-pg-dealers__filter-title {
+  display: none;
+}
+
+.mp-pg-dealers__drop-filter .mp-pg-dealers__filter-item {
+  float: none;
+  width: 100%;
+  height: 100%;
+  max-height: 40px;
+  margin-bottom: 10px;
+}
+
+.mp-pg-dealers__shop-item-wr .mp-pg-dealers__shop-item:last-child {
+  margin-right: 20px;
+}
+
+/*  Shops page  */
+
+.mp-pg-dealers__shops-checkbox-wr {
+  float: left;
+  margin-top: -2px;
+  margin-right: 5px;
+}
+
+.mp-pg-dealers__shops-minifilter-item {
+  float: left;
+  margin-right: 20px;
+}
+
+.mp-pg-dealers__shops-minifilter-item:last-child {
+  margin-right: 0;
+}
+
+.mp-pg-dealers__shops-labels-wr {
+  float: left;
+}
+
+.mp-pg-dealers__shops-labes-item {
+  font-family: "firasans";
+  font-size: 14px;
+  color: #000;
+}
+
+.mp-pg-dealers__shops-slider-wr {
+  height: 300px;
+  margin-top: 30px;
+}
+
+.mp-pg-dealers__shops-slider-item {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.mp-pg-dealers__shops-slider-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.mp-pg-dealers__shops-slider-wr .slick-slide {
+  outline: none;
+}
+
+.mp-pg-dealers__shops-slider-wr .slick-list {
+  height: 100%;
+}
+
+.mp-pg-dealers__shops-slider-wr .slick-track {
+  height: 100%;
+}
+
+.mp-pg-dealers__shops-slider-wr .slick-dots {
+  bottom: -36px;
+}
+
+.mp-pg-dealers__shops-slider-wr .slick-dots li button:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  margin-left: -6px;
+  margin-top: -6px;
+  opacity: 1;
+  border: 1px solid #0091d5;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.mp-pg-dealers__shops-slider-wr .slick-dots li.slick-active button:before {
+  background-color: #0091d5;
+}
+
+.mp-pg-dealers__shops-text {
+  margin-top: 60px;
+  font-family: "firasans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+
+
+
+
+
+
+@media (max-width: 992px) and (min-width: 724px) {
+  .mp-pg-dealers__wrapper {
+    width: 724px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mp-pg-dealers__shop-section {
+    margin-top: 0;
+  }
+  .mp-pg-dealers__shop-s {
+    width: 228px;
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shop-item {
+    width: 228px;
+  }
+  .mp-pg-dealers__shop-item:nth-child(3n+1) {
+    margin-right: 0;
+  }
+  .mp-pg-dealers__shop-filter-wr {
+    width: 228px;
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shop-filter {
+    width: 100%;
+  }
+  .mp-pg-dealers__filter-item {
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .mp-pg-dealers__shop-dop {
+    width: 160px;
+    margin: 0 auto;
+  }
+  .mp-pg-dealers__shop-dop-wr {
+    width: 228px;
+  }
+  .mp-pg-dealers__shop-item {
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shop-item:nth-child(4n+1) {
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shop-city-select {
+    width: 228px;
+  }
+  .mp-pg-dealers__shop-filter-sm-wr {
+    width: 228px;
+  }
+  .mp-pg-dealers__shop-section-row .mp-pg-dealers__shop-item:nth-child(3) {
+    display: none;
+  }
+  .mp-pg-dealers__shop-section-row .mp-pg-dealers__shop-item:nth-child(3n+1) {
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shops-slider-wr {
+    height: 250px;
+  }
+  .mp-pg-dealers__shops-text {
+    margin-top: 50px;
+  }
+  .mp-pg-dealers__shops-slider-wr .slick-dots {
+    bottom: -36px;
+  }
+  .mp-pg-dealers__shops-text {
+    margin-bottom: 30px;
+  }
+
+}
+
+
+@media (max-width: 723px) and (min-width: 480px) {
+  .mp-pg-dealers__wrapper {
+    width: 480px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .mp-pg-dealers__top-select {
+    display: block;
+    width: 220px;
+    margin: 20px auto 0;
+  }
+  .mp-pg-dealers__map {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .mp-pg-dealers__shop-section {
+    /*margin-top: 30px;*/
+    margin-top: 0;
+  }
+  .mp-pg-dealers__shop-filter {
+    margin-bottom: 30px;
+  }
+  .mp-pg-dealers__shop-title {
+    margin-bottom: 10px;
+  }
+  .mp-pg-dealers__top-filter {
+    display: block;
+  }
+  .mp-pg-dealers__shop-dop {
+    display: none;
+  }
+  .mp-pg-dealers__shop-link {
+    display: none;
+  }
+  .mp-pg-dealers__shop-item {
+    width: 217px;
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shop-filter-wr {
+    display: none;
+  }
+  .mp-pg-dealers__shop-city-select {
+    display: none;
+  }
+  .mp-pg-dealers__shop-item:nth-child(2n+1) {
+    margin-right: 0;
+  }
+  .mp-pg-dealers__shop-filter-sm-wr {
+    display: none;
+  }
+  .mp-pg-dealers__shop-mobile-wr {
+    display: block;
+  }
+  .mp-pg-dealers__shop-item-wr .mp-pg-dealers__shop-item:last-child {
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shop-item-wr .mp-pg-dealers__shop-item:nth-child(2n+1) {
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shop-item-wr .mp-pg-dealers__shop-item:nth-child(2n+0) {
+    margin-right: 0;
+  }
+  .mp-pg-dealers__shops-minifilter-item {
+    margin-right: 10px;
+  }
+  .mp-pg-dealers__shops-slider-wr {
+    height: 155px;
+  }
+  .mp-pg-dealers__shops-text {
+    margin-top: 40px;
+  }
+  .mp-pg-dealers__shops-slider-wr .slick-dots {
+    bottom: -30px;
+  }
+  .mp-pg-dealers__shops-text {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+  .mp-pg-dealers__wrapper {
+    width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .mp-pg-dealers__title {
+    font-size: 16px;
+    margin: 30px auto 15px auto;
+    text-align: center;
+  }
+  .mp-pg-dealers__text {
+    font-size: 14px;
+  }
+  .mp-pg-dealers__top-select {
+    display: block;
+    width: 220px;
+    margin: 20px auto 0;
+  }
+  .mp-pg-dealers__map {
+    margin-top: 20px;
+  }
+  .mp-pg-dealers__shop-s {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+  .mp-pg-dealers__shop-dop {
+    display: none;
+  }
+  .mp-pg-dealers__shop-title {
+    margin-left: 0;
+    text-align: center;
+  }
+  .mp-pg-dealers__shop-item {
+    float: none;
+    width: 220px;
+    margin: 0 auto 10px;
+  }
+  .mp-pg-dealers__shop-item:last-child {
+    margin: 0 auto;
+  }
+  .mp-pg-dealers__shop-section {
+    margin-top: 30px;
+  }
+  .mp-pg-dealers__top-filter {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .mp-pg-dealers__shop-filter {
+    margin-bottom: 30px;
+    width: 220px;
+    margin: 0 auto;
+  }
+  .mp-pg-dealers__filter-item {
+    float: none;
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    margin-bottom: 10px;
+  }
+  .mp-pg-dealers__shop-title {
+    margin-bottom: 10px;
+  }
+  .mp-pg-dealers__shop-filter-wr {
+    display: none;
+  }
+  .mp-pg-dealers__shop-title-left {
+    display: inline-block;
+	margin-left: 20px;
+  }
+  .mp-pg-dealers__shop-city-select {
+    display: none;
+  }
+  .mp-pg-dealers__drop-filter-btn {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mp-pg-dealers__shop-mobile-wr {
+    display: block;
+  }
+  .mp-pg-dealers__shop-mobile-select {
+    float: left;
+    max-width: 140px;
+  }
+  .mp-pg-dealers__shop-mobile-filter-wr {
+    float: right;
+    max-width: 140px;
+  }
+  .mp-pg-dealers__shop-filter-sm-wr {
+    display: none;
+  }
+  .mp-pg-dealers__shop-item-wr .mp-pg-dealers__shop-item:last-child {
+    margin-right: auto;
+  }
+  .mp-pg-dealers__shop-item:nth-child(5n) {
+    margin-right: auto;
+  }
+  .mp-pg-dealers__filter-caption-wr {
+    padding-left: 5px;
+  }
+  .mp-pg-dealers__filter-caption {
+    font-size: 12px;
+  }
+  .mp-pg-dealers__shops-minifilter-item {
+    float: none;
+    width: 100%;
+  }
+  .mp-pg-dealers__shops-labes-item {
+    font-size: 12px;
+  }
+  .mp-pg-dealers__shops-slider-wr {
+    height: 155px;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .mp-pg-dealers__shops-text {
+    margin-top: 40px;
+  }
+  .mp-pg-dealers__shops-slider-wr .slick-dots {
+    bottom: -26px;
+  }
+  .mp-pg-dealers__shops-text {
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+
+}
+
+
+
+.mp-pg-dealers__wrapper{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.bx_filter .bx_filter_select_block, .common_select .common_select-link{
+    display: none;
+}
+
+.mp-pg-dealers__drop-filter-btn{
+	width: initial;
+}
+
+
+.mp-pg-dealers__shop-section-row{
+	margin-left: 0;
+}
+
+.mp-pg-dealers__shop-item{
+	margin-right: 20px;
+	
+	height: 300px;
+}
+.mp-pg-dealers__shop-item:nth-child(5n) {
+    margin-right: 20px;
+}
+.mp-pg-dealers__shop-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.route{
+	position: absolute;
+	right: -600px;
+	top: 26px;
+}
+
+.mp-pg-dealers__shop-filter-sm .mp-pg-dealers__filter-item{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.mp-pg-dealers__filter-wr input[type="submit"]{
+	display: inline-block;
+	width: 90%;
+	height: 25px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "firasans";
+	font-size: 14px;
+	line-height: 25px;
+	color: #000;
+	text-align: center;
+	border: 1px solid #bababa;
+	border-radius: 5px;
+	background-color: #fff;
+	transition: none;
+
+}
+.mp-pg-dealers__filter-wr input[type="submit"]:hover{
+	font-family: "firasansbold";
+	color: #fff;
+	text-decoration: none;
+	border-color: #0091d5;
+	background-color: #0091d5;
+}
+
+.mp-pg-dealers__filter-item{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.mp-pg-dealers__shop-s .mp-pg-dealers__shop-title{
+	max-width: 220px;
+}
+
+
+
+@media (max-width: 992px) and (min-width: 724px) {
+	.mp-pg-dealers__shop-item{
+		margin-right: 10px;
+	}
+	
+	.route {
+	    right: -394px;
+	}	
+	.mp-pg-dealers__shop-item:nth-child(5n) {
+    margin-right: 10px;
+	}
+	.mp-pg-dealers__shop-item:nth-child(4n) {
+    margin-right: 10px;
+	}
+	.mp-pg-dealers__shop-item:nth-child(3n){
+		margin-right: 0;
+	}
+	.mp-pg-dealers__shop-item:nth-child(3n+1){
+		margin-right: 10px;
+	}
+
+}
+@media (max-width: 723px) and (min-width: 480px){
+	.mp-pg-dealers__shop-item{
+		margin-right: 10px;
+		
+	}
+	.mp-pg-dealers__shop-item:nth-child(2n+1){
+		margin-right: 10px;
+	}
+	.mp-pg-dealers__shop-item:nth-child(2n){
+		margin-right: 0px;
+	}
+	
+	
+	
+}
+@media (max-width: 760px){
+  .route {
+      right: -370px;
+  }
+
+}
+@media screen and (max-width: 720px){
+	.wrap-map #map{
+    margin-top: 0;
+  }
+  .wrap-map #select-object{
+    top: 0;
+  }
+
+}
+@media (max-width: 479px) and (min-width: 320px){
+  .mp-pg-dealers__shop-item, .mp-pg-dealers__shop-item:nth-child(5n), .mp-pg-dealers__shop-item:nth-child(4n){
+   margin-left: auto;
+  margin-right: auto;
+  }
+ 
+ .mp-pg-dealers__filter-caption-wr{
+    width: 83%;
+ }
+  
+}
+
+
+/*24.07.17*/
+
+.mp-pg-dealers__shop-info-address{
+  position: relative;
+  padding-left: 19px;
+}
+.mp-pg-dealers__shop-info-ic-address{
+  position: absolute;
+  left: 0;
+}
+
+.mp-pg-dealers__shop-title-left{
+  display: inline-block;
+}
+
+
+.mp-pg-dealers__shops-minifilter-item{
+  margin-bottom: 7px;
+  width: 26%;
+}
+@media (max-width: 992px) and (min-width: 724px) {
+  .mp-pg-dealers__shops-minifilter-item{
+    
+    width: 45%;
+  }
+}
+@media (max-width: 723px) and (min-width: 480px){
+  .mp-pg-dealers__shops-minifilter-item{
+    width: 100%;
+    
+  }
+}
+@media (max-width: 480px){
+  .mp-pg-dealers__shops-minifilter-item{
+    width: 100%;
+    
+  }
+}
+.mp-pg-dealers__shop-title{
+  margin-bottom: 15px;
+}
+
+/*end of 24.07.17*/
+
+.ik_select_link {display: none!Important;}
